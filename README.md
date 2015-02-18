@@ -1,16 +1,12 @@
 Assignment: CSS Hell
 ====================
 
-You will skin 3 project gutenberg stories with custom CSS.
+This is an assignment to experiment with CSS and HTML techniques.
 
-You will skin 2 versions of a possible professional homepage for your
-self with 2 versions of CSS.
+The assignment specification is outlined in requirements.org.
 
-Read requirements.org
-
-Read this comic http://theoatmeal.com/comics/design_hell
-
-git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
+For Part I, the only modifications made to the gutenberg HTML files were
+to remove the existing CSS, and replace it with a link to my custom style sheet.
 
 License/Copyright
 =================
@@ -19,6 +15,4 @@ Textual content is copyright Abram Hindle (C) 2013 under the CC-BY-SA
 4.0 unported license. Attribution should be a hyperlink to the
 repository and (C) 2013 Abram Hindle visibile in the text.
 
-Code is licensed under the Apache 2.0 license.
-
-
+Code is copyright Jessica Yuen (C) 2015 licensed under the GNU GPL 3 license.

@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333333;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  color: #777777;
+}
+
+html {
+  background-color: #123fda
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
+
+p { margin: 0 0 10px 0; }
+
+em { font: 15px/30px 'opensans-italic', sans-serif; }
+
+.row {
+  width: 96%;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.row .row { width: auto; max-width: none; margin: 0 -20px; }
+
+.columns {
+  position: relative;
+  padding: 0 20px;
+  min-height: 1px;
+  float: left;
+}
+
+.row .general { width: 25%; }
+.row .detail { width: 75%; }
+
+body { background: #0f0f0f; }
+
+#navbar {
+  font: 12px sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+}
+
+ul#nav {
+  min-height: 48px;
+  width: auto;
+  text-align: center;
+}
+ul#nav li {
+  position: relative;
+  list-style: none;
+  height: 48px;
+  display: inline-block;
+}
+ul#nav li a {
+   display: inline-block;
+   padding: 8px 13px;
+   line-height: 32px;
+   text-decoration: none;
+   text-align: left;
+   color: #ffffff;
+}
+
+#about {
+   background: #ff5a55;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+#about h2 {
+   font: 22px 'opensans-bold', sans-serif;
+   color: #ffffff;
+   margin-bottom: 12px;
+}
+#about p {
+   line-height: 30px;
+   color: #445567;
+}
+#about .profile-pic {
+  position: relative;
+  width: 140px;
+  height: 140px;
+}
+#about .text-col { padding-right: 5%; }
+
+#resume {
+  background: #12ff12;
+  padding-top: 40px;
+  padding-bottom: 72px;
+  overflow: hidden;
+  float: left;
+  width: 70%;
+  padding-left: 10%;
+}
+#resume h1, #skills h1 {
+  font: 18px/24px 'opensans-bold', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-top: 50px;
+}
+#resume h1 span, #skills h1 span {
+  border-bottom: 3px solid #66542a;
+  padding-bottom: 6px;
+}
+#resume h3 {
+  font: 25px/30px 'opensans-bold', sans-serif;
+  padding-top: 50px;
+}
+#resume .text-col { padding-right: 5%; }
+
+#resume .info {
+  font: 24px, serif;
+  color: #8990aa;
+  margin-bottom: 18px;
+  margin-top: 9px;
+}
+#resume .info span {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+#resume .highlights {
+  margin-left: 17px;
+}
+
+.bars {
+  width: 95%;
+  float: left;
+  padding-top: 40px;
+  text-align: left;
+}
+.bars .skills {
+  margin-top: 36px;
+  list-style: none;
+}
+.bars li {
+  position: relative;
+  margin-bottom: 30px;
+  background: #ccc;
+  height: 15px;
+}
+.bars li em {
+  font: 15px, sans-serif;
+  color: #313131;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: normal;
+  position: relative;
+  top: -26px;
+}
+.bar-expand {
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  margin: 0;
+  background: #313131;
+  display: inline-block;
+  height: 15px;
+  border-radius: 3px 0 0 3px;
+}
+
+#skills {
+  float: right;
+  width: 30%;
+  padding-right: 10%;
+  background: #123fda;
+}
+#skills h1 {
+  padding-bottom: 40px;
+}
+
+#hireme {
+  padding-top:100px;
+  float: right;
+  width: 30%;
+  padding-right: 10%;
+  background: #123fda;
+  color: white;
+}
+
+footer {
+  padding-top:150px;
+  float: right;
+  width: 30%;
+  padding-right: 10%;
+  background: #123fda;
+  overflow: hidden;
+}
+
+.java { width: 90%; }
+.cpp { width: 80%; }
+.c { width: 80%; }
+.python { width: 60%; }
+.javascript { width: 80%; }
+.html5 { width: 80%; }
+.css3 { width: 70%; }
+.sql { width: 80%; }
+.go { width: 70%; }
+
+.android { width: 80%; }
+.d3 { width: 80%; }
+.node { width: 60%; }
+.django { width: 60%; }
+.bootstrap { width: 80%; }
+
+.git { width: 90%; }
+.svn { width: 80%; }
+
+.bash { width: 80%; }
+.eclipse { width: 90%; }
+.sublime { width: 80%; }
